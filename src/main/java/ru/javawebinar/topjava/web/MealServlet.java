@@ -18,7 +18,7 @@ public class MealServlet extends HttpServlet {
         log.debug("redirect to meals");
 
 
-        request.getRequestDispatcher("/users.jsp").forward(request, response);
+        request.getRequestDispatcher("/meals.jsp").forward(request, response);
         //response.sendRedirect("meals.jsp");
     }
 }
